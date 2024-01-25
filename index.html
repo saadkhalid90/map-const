@@ -5,8 +5,26 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <script src="index.js" type="module"></script>
+  <style>
+    body {
+      margin: 0;
+      position: relative;
+    }
+    h1#na-prog {
+      position: fixed;
+      top: 0;
+      left: 0;
+    }
+    *, *::before, *::after {
+      box-sizing: border-box;
+    }
+    div#my-map {
+      width: 2000;
+    }
+  </style>
 </head>
 <body>
-  <h1 onclick="console.log('aha!')">Give me that!</h1>
+  <h1 id="na-prog">0</h1>
+  <div id="my-map"></div>
 </body>
 </html>
